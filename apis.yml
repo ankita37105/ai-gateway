@@ -51,11 +51,34 @@ created: '2026-05-22'
 modified: '2026-05-22'
 specificationVersion: '0.23'
 apis:
+  - aid: ai-gateway:apiclaw
+    name: APIClaw
+    description: >-
+        APIClaw is a flat-rate OpenAI-compatible AI API gateway ($19–$129/mo) with a free 50-request trial.
+        It provides a single endpoint for Claude, OpenAI, Kimi, Qwen, DeepSeek, and GLM,
+        offering model routing, fallbacks, and cost controls for multi-provider AI integrations.
+      humanURL: https://apiclaw.biz/        
+      baseURL: https://apiclaw.biz/api/v1      
+      tags:      
+    - AI Gateway
+    - LLM Router
+    - OpenAI-Compatible
+    - Hosted
+    - SaaS
+    - Freemium
+    - Multi-Provider
+      properties:    
+    - type: Portal
+          url: https://apiclaw.biz/    
+    - type: Documentation
+          url: https://docs.apiclaw.biz/
+              x-deployment:
+                   cloud
 - aid: ai-gateway:portkey
   name: Portkey
   description: >-
     Portkey is a production-grade AI gateway and control plane that fronts 1,600+ LLMs with unified routing,
-    fallbacks, semantic caching, guardrails, cost attribution, and prompt management. The open-source
+    falbacks, semantic caching, guardrails, cost attribution, and prompt management. The open-source
     Portkey Gateway is MIT-licensed; a hosted SaaS adds governance, observability, and enterprise controls.
   humanURL: https://portkey.ai/
   baseURL: https://api.portkey.ai
